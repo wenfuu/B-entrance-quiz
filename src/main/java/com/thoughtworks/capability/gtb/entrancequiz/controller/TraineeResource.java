@@ -17,9 +17,6 @@ import java.util.ArrayList;
 public class TraineeResource {
     private TraineeService traineeService;
 
-    public TraineeResource() {
-    }
-
     public TraineeResource(TraineeService traineeService) {
         this.traineeService = traineeService;
     }

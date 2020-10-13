@@ -7,9 +7,6 @@ import java.util.ArrayList;
 public class TraineeResponse {
     private ArrayList<Trainee> trainees;
 
-    public TraineeResponse() {
-    }
-
     public TraineeResponse(ArrayList<Trainee> trainees) {
         this.trainees = trainees;
     }
