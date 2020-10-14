@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 @Service
 public class TraineeService {
+    //TODO GTB：思考一下，存储数据，是否是service该有的职责？
     private final ArrayList<Trainee> trainees = new ArrayList<>();
 
     public void create(Trainee trainee) {

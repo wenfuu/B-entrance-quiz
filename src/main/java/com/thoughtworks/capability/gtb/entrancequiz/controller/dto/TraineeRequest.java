@@ -5,6 +5,7 @@ import com.thoughtworks.capability.gtb.entrancequiz.model.Trainee;
 public class TraineeRequest {
     private String name;
 
+    //TODO GTB：了解一下Lombok
     public String getName() {
         return name;
     }
